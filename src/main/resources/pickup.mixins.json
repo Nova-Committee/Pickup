@@ -3,7 +3,7 @@
 	"package": "nova.committee.mixin",
 	"compatibilityLevel": "JAVA_16",
 	"mixins": [
-		"ExampleMixin"
+      "PickupMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
