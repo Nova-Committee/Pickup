@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "pickup",
+	"version": "${version}",
+	"name": "Pickup",
+	"description": "Pick up item directly from the item frame!",
+	"authors": [
+		"Chemiofitor"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/pickup",
+		"sources": "https://github.com/Nova-Committee/Pickup"
+	},
+	"license": "MIT",
+	"icon": "assets/pickup/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nova.committee.Pickup"
+		]
+	},
+	"mixins": [
+		"pickup.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"fabric": "*"
+	}
+}
